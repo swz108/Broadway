@@ -3,13 +3,12 @@ body {
   text-align: center;
   }
 
-/* Header */
-.header {
-  background: url(file:///Users/teege/Documents/projects/Broadway/resources/images/the-flatiron-building.png)
+.hero {
+  background: url(file:///Users/teege/Documents/projects/broadway/resources/images/the-flatiron-building.png)
 }
 
-.header a {
-  display: block;
+/* Header */
+.hero a {
   font-family: Helvetica;
   font-size: 18px;
   color: white;
@@ -38,4 +37,25 @@ h4 {
 p {
   font-family: Helvetica;
   font-size: 14px;
+}
+
+/* Lower Section */
+.lower h3 {
+  font-family: Helvetica;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Footer Section */
+#footer {
+  text-align: left;
+  font-family: Helvetica;
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
+}
+
+.footer a {
+  color: white;
 }
